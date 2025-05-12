@@ -8,4 +8,5 @@ Dự án bài tập lớn môn Ngôn ngữ lập trình C++.
 - Đăng ký tài khoản (Phong)
 - Đăng nhập (Phong)
 - Tạo tài khoản cho người khác (quản lí) (Phong)
+- Lưu thông tin người dùng vào CSDL(Khang)
 >>>>>>> 04962708c288622a463bb23b910fdcb229ab8f10
