@@ -7,11 +7,11 @@ CXXFLAGS = -std=c++17 -I./sql -Wall
 CFLAGS = -I./sql -Wall
 
 # File nguồn
-CPP_SOURCES = src/main.cpp src/user.cpp src/ui.cpp src/file_utils.cpp
+CPP_SOURCES = src/main.cpp src/user.cpp src/ui.cpp src/Database.cpp
 C_SOURCE = sql/sqlite3.c
 
 # File đối tượng
-CPP_OBJECTS = src/main.o src/user.o src/ui.o src/file_utils.o
+CPP_OBJECTS = src/main.o src/user.o src/ui.o src/Database.o
 C_OBJECT = sql/sqlite3.o
 
 # Tên chương trình

@@ -5,8 +5,7 @@ Dự án bài tập lớn môn Ngôn ngữ lập trình C++.
 - Đăng ký tài khoản
 - Đăng nhập
 =======
-- Đăng ký tài khoản (Phong)
-- Đăng nhập (Phong)
-- Tạo tài khoản cho người khác (quản lí) (Phong)
-- Lưu thông tin người dùng vào CSDL(Khang)
+Các chức năng đăng kí và đăng nhập người dùng
+- Phong : Giao diện
+- Khang : Lưu thông tin người dùng
 >>>>>>> 04962708c288622a463bb23b910fdcb229ab8f10
