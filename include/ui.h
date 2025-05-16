@@ -10,5 +10,6 @@ std::string getInput(const std::string& prompt);
 void showMessage(const std::string& message);
 void showRegisterScreenForMnger();
 void showChangePasswordScreen();
-
+void showTransactionMenu();
+void showChanginPassScreen();
 #endif

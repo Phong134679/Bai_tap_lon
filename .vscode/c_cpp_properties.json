@@ -1,20 +1,29 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "MinGW64",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}"
+                "${workspaceFolder}/sql",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/otp",
+                "A:/TC++/curl-8.13.0_3-win64-mingw/curl-8.13.0_3-win64-mingw/include/curl/"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "C:\\mingw64\\bin\\gcc.exe",
+            "defines": [],
+            "compilerPath": "A:/TC++/MSYS2/mingw64/bin/g++.exe",
+            "intelliSenseMode": "gcc-x64",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${workspaceFolder}/sql",
+                    "${workspaceFolder}/include",
+                    "${workspaceFolder}/otp",
+                    "A:/TC++/curl-8.13.0_3-win64-mingw/curl-8.13.0_3-win64-mingw/include/curl/"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ],
     "version": 4

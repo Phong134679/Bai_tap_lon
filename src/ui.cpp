@@ -14,6 +14,15 @@ void showMenu() {
     cout << "========================\n";
 }
 
+void showTransactionMenu() {
+    cout << "========================\n";
+    cout << "TRANSACTION SYSTEM\n";
+    cout << "1 CHANGE PASSWORD\n";
+    cout << "...\n";
+    cout << "PRESS 1/...\n";
+    cout << "========================\n";
+}
+
 char getMenuChoice() {
     return _getch();
 }
@@ -44,3 +53,6 @@ void showChangePasswordScreen() {
 	cout << ">> CHANGE YOUR INFORMATION <<\n";
 }
 
+void showChanginPassScreen() {
+    cout << ">> CHANGING PASSWORD <<\n";
+}
